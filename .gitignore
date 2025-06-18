@@ -1,1 +1,29 @@
 node_modules
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Client environment files
+client/.env
+client/.env.local
+client/.env.development
+client/.env.test
+client/.env.production
+
+# Server environment files
+server/.env
+server/.env.local
+server/.env.development
+server/.env.test
+server/.env.production
+
+# IDE and OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
